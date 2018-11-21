@@ -1,0 +1,20 @@
+{
+    "config": {
+    },
+    "macros": [],
+    "target_overrides": {
+        "*": {
+            "target.device_has_remove": ["SERIAL", "SERIAL_ASYNCH", "SERIAL_FC", "STDIO_MESSAGES"]
+        },
+        "NUMAKER_PFM_NANO130": {
+        },
+        "NUMAKER_PFM_NUC472": {
+        },
+        "NUMAKER_PFM_M453": {
+        },
+        "NUMAKER_PFM_M487": {
+        },
+        "NUMAKER_PFM_M2351": {
+        }
+    }
+}
